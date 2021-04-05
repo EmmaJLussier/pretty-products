@@ -38,9 +38,9 @@ ol {
   padding: 0;
   margin: 0;
 
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 ol > li {
@@ -57,7 +57,7 @@ ol > li {
 h2 + img {
   order: -1;
   max-width: 15em;
-  margin: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 ol ul {
